@@ -2,6 +2,7 @@
 
 # AI for Low-Light Image Understanding & Underwater Tracking
 ### Team: GenFusion
+**Pranav Kukreja ,Moksh Rapal, Varun Chawla , Vansh Chawla ** – Model Training & Optimization , Image Enhancement
 **Event:** AI Summit Hackathon 2026 | **Track:** Computer Vision
 
 ---
