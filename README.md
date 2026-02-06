@@ -1,4 +1,4 @@
-# AIforLowLightImageUnderstanding_GenFusion_PranavKukreja
+
 
 # AI for Low-Light Image Understanding & Underwater Tracking
 ### Team: GenFusion
@@ -22,7 +22,15 @@ We implemented a **U-Net** based architecture with skip connections to preserve 
 * **Optimization:** Mixed Precision Training (AMP) for faster convergence on RTX 4060 GPU.
 * **Input/Output:** Processes 256x256 images, outputting enhanced RGB images.
 
-### Phase 2: Underwater Object Tracking (Task 2)
+First Full Evaluation results:
+   FULL METRICS REPORT   
+========================================
+PSNR  : 22.1877  (Goal: >26.2)
+SSIM  : 0.7978  (Goal: >0.90)
+LPIPS : 0.3313 (Goal: <0.095)
+UCIQE : 0.4223 (Goal: >0.42)
+
+### Phase 2: Underwater Object Tracking (Task 2)  -- Tentative -- 
 We utilized the **YOLOv8-Nano** model for detection coupled with the **ByteTrack** algorithm for association.
 * **Detection:** Fine-tuned YOLOv8n on the provided underwater dataset.
 * **Tracking:** ByteTrack handles occlusion and low-confidence detections effectively.
