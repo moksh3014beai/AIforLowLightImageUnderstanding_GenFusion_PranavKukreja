@@ -1,0 +1,2 @@
+Average PSNR: 22.1173
+Average SSIM: 0.7944
