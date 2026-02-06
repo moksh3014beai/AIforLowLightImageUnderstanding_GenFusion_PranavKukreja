@@ -1,7 +1,7 @@
 torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  # Adjust for your CUDA version
 opencv-python
 scikit-image
-lpips  # For the "Learned Perceptual Image Patch Similarity" metric mentioned in PDF
-tqdm   # For progress bars
+lpips  
+tqdm   
 matplotlib
 numpy
