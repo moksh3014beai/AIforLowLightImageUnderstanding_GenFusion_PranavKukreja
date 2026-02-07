@@ -10,7 +10,7 @@
 ## 📖 Overview
 This repository contains our solution for the "AI for Low-Light Image Understanding" challenge. Our pipeline addresses two critical tasks in underwater and low-light environments:
 1.  **Image Enhancement:** Restoring visibility in dark, low-contrast underwater images using a deep learning-based U-Net.
-2.  **Object Tracking:** Real-time detection and tracking of underwater objects using YOLOv8 and ByteTrack, optimized for high speed (<40ms latency). *tentative
+
 
 ---
 
@@ -33,14 +33,7 @@ UCIQE : 0.4223 (Goal: >0.42)
 
 **weights_old is for older and more stable models and weights is for newer versions**
 
-### Phase 2: Underwater Object Tracking (Task 2)  -- Tentative -- 
-We utilized the **YOLOv8-Nano** model for detection coupled with the **ByteTrack** algorithm for association.
-* **Detection:** Fine-tuned YOLOv8n on the provided underwater dataset.
-* **Tracking:** ByteTrack handles occlusion and low-confidence detections effectively.
-* **Data Prep:** Custom scripts to convert absolute pixel annotations (GroundTruth) to normalized YOLO formats.
-* **Performance:** Optimized for speed, achieving real-time inference suitable for edge deployment.
 
----
 
 ## 📂 Project Structure
 
