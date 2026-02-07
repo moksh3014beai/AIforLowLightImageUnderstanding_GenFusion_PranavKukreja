@@ -31,6 +31,8 @@ SSIM  : 0.7978  (Goal: >0.90)
 LPIPS : 0.3313 (Goal: <0.095)
 UCIQE : 0.4223 (Goal: >0.42)
 
+**weights_old is for older and more stable models and weights is for newer versions**
+
 ### Phase 2: Underwater Object Tracking (Task 2)  -- Tentative -- 
 We utilized the **YOLOv8-Nano** model for detection coupled with the **ByteTrack** algorithm for association.
 * **Detection:** Fine-tuned YOLOv8n on the provided underwater dataset.
